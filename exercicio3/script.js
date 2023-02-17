@@ -27,6 +27,14 @@ pokemon1.ataques.push(ataque1)
 copiaPokemon1.ataques = [...pokemon1.ataques]
 
 // e)
+/* fazendo com spread 
+pokemon1.ataques.push({
+    ...pokemon1.ataques[0],
+    nome: 'Folha Navalha',
+    dano: 45,
+    tipo: 'Grama'
+})
+*/
 const ataque2 = {
     nome: "Folha Navalha",
     dano: 45,
@@ -36,6 +44,14 @@ const ataque2 = {
 pokemon1.ataques.push(ataque2)
 
 // f)
+/* fazendo com spread 
+copiaPokemon1.ataques.push({
+    ...copiaPokemon1.ataques[0],
+    nome: 'Jato de Água',
+    dano: 40,
+    tipo: 'Água'
+})
+*/
 const ataque3 = {
     nome: "Jato de Água",
     dano: 40,
